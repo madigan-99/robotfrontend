@@ -4,7 +4,7 @@
         transform-origin: left top;
         width: 100vh;
         position: absolute;
-        top: 100%;
-        left: 0;
+        margin-top: 100vh;
+        margin-left: 0;
     }
 }
