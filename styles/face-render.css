@@ -22,9 +22,9 @@
   }
 
   div#robotface.wrapper {
-    height: 100vw;
-    width: 100vh;
-    margin-top: 175%;
+    height: 100vw !important; 
+    width: 100vh !important;
+    margin-top: 175% !important;
   }
 }
 

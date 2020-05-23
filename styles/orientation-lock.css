@@ -1,10 +1,28 @@
 @media screen and (orientation: portrait) {
-    html {
+    /* html {
         transform: rotate(-90deg);
         transform-origin: left top;
         width: 100vh;
         position: absolute;
         margin-top: 100vh;
         margin-left: 0;
-    }
+    } */
+
+    body {
+        transform: rotate(-90deg);
+        transform-origin: top left;
+        margin-top: 200%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        overflow: hidden;
+        width: 100vh;
+        height: 100vw;
+      }
+    
+    /* div#robotface.wrapper {
+        height: 100vw !important; 
+        width: 100vh !important;
+        margin-top: 175% !important;
+      } */
 }
