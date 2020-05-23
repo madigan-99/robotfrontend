@@ -19,7 +19,12 @@
     overflow: hidden;
     width: 100vh;
     height: 100vw;
-    
+  }
+
+  div#robotface.wrapper {
+    height: 100vw;
+    width: 100vh;
+    margin-top: 175%;
   }
 }
 
