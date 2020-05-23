@@ -9,8 +9,8 @@
 }
 
 @media screen and (orientation:portrait) {
-  .wrapper {
-    transform: rotate(-90deg);
+  /* .wrapper {
+    transform: rotate(-90deg); 
     transform-origin: left top;
     margin-top: 100%;
     margin-left: 0px;
@@ -19,15 +19,19 @@
     overflow: hidden;
     width: 100vh;
     height: 100vw;
-  }
-
-  div#robotface.wrapper {
-    height: 100vw !important; 
-    width: 100vh !important;
-    margin-top: 175% !important;
+    display:none;
+  } */
+  .orientation-warning {
+    text-align: center;
+    background-color: yellow;
   }
 }
 
+@media screen and (orientation:landscape) {
+  .orientation-warning {
+    display: none;
+  }
+} 
 /* @media screen and (orientation: portrait) {
   body {
       transform: rotate(-90deg);
