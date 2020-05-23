@@ -12,11 +12,13 @@
   .wrapper {
     transform: rotate(-90deg);
     transform-origin: left top;
-    margin-top: 100%;
+    margin-top: 175%;
     margin-left: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
     overflow: hidden;
+    width: 100vh;
+    height: 100vw;
   }
 }
 
